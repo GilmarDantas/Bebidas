@@ -23,6 +23,19 @@ h1 {
             text-align: center;          
             
 }
+a:link {text-decoration: none;
+}
+ul {
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #B62323;
+    color: white;
+}
 
 .cards {
     display: flex;

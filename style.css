@@ -11,6 +11,17 @@
     
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
 h1 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     font-size: 70px;
@@ -21,7 +32,8 @@ h1 {
 }
 
 .subtitulo {
-    margin: 2em 5em;
+    margin-bottom: 2em;
+
 }
 
 a:link {
@@ -64,7 +76,6 @@ ul a:active {
 .cards {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -73,22 +84,29 @@ ul a:active {
     flex-direction: column;
     justify-content: space-between;
     min-height: 300px;
-    max-width: 200px;
-    border: solid 2px;
-    border-radius: 15px;
-    margin: 1rem;
+    width: 200px;
+    border-radius: 5zpx;
+    margin: 1em;
+    padding: 10px;
+}
+
+.card-item:hover {
+    box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.1);
+
 }
 
 .card-item img {
     
     border-radius: 15px;
+    width: 100%;
+    max-height: 180px;
 }
 
 .cards button {
     border: none;
     padding: 12px;
     color: white;
-    background-color: rgba(58, 148, 23, 0.685);
+    background-color: #B62323;
     text-align: center;
     cursor: pointer;
     font-size: 18px;

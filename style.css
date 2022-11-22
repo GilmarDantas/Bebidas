@@ -85,9 +85,10 @@ ul a:active {
     justify-content: space-between;
     min-height: 300px;
     width: 200px;
-    border-radius: 5zpx;
+    border-radius: 5px;
     margin: 1em;
     padding: 10px;
+    border: 1px solid whitesmoke;
 }
 
 .card-item:hover {

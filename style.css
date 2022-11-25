@@ -3,12 +3,58 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 :root {
-    --fonte-principal: 'Poppins';
+     --fonte-principal: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+/*   --cor-principal: ;*/
     
+}
+
+/* HEADER */
+
+.container {
+    display: flex;
+    background-color: #B62323;
+}
+
+.title {
+    font-family: var(--fonte-principal);
+    font-size: 3em;
+    font-variant: small-caps;
+    color: white;
+    background-color: #B62323;
+    text-align: center;
+    flex: 1 0 50%;
+    
+}
+
+.button__container {
+    margin: 14px;
+}
+
+.button__container a {
+    box-shadow: 0px 1px 0px 0px #5b6178;
+	background-color:#5b5b5b;
+	border-radius:6px;
+	border:1px solid #5b6178;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+
+.container button:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	 background-color:#019ad2; 
+}
+.container button:active {
+	position:relative;
+	top:1px;
 }
 
 body {
@@ -20,15 +66,6 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 2em;
-}
-
-h1 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    font-size: 70px;
-    font-variant: small-caps;
-    color: white;
-    background-color: #B62323;
-    text-align: center;     
 }
 
 .subtitulo {
@@ -68,7 +105,7 @@ ul a:hover {
 }
 
 ul a:active {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid black;
 }
 
  /* PRODUCT CATALOG */
@@ -88,7 +125,7 @@ ul a:active {
     border-radius: 5px;
     margin: 1em;
     padding: 10px;
-    border: 1px solid whitesmoke;
+    border: 1px solid rgba(0,0,0,0.1);
 }
 
 .card-item:hover {
@@ -103,25 +140,29 @@ ul a:active {
     max-height: 180px;
 }
 
-.cards button {
-    border: none;
-    padding: 12px;
-    color: white;
-    background-color: #B62323;
-    text-align: center;
-    cursor: pointer;
-    font-size: 18px;
-}
-
 .cards button:hover {
-    opacity: 0.7;
+    background-color: #B62323;
 }
 
 .card-content {
     text-align: center;
+    padding-bottom: 5px
 }
 
 .card-content button {
+    border: none;
+    padding: 8px;
+    background-color: #5b5b5b;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
     border-radius: 10px;
     width: 100%;
+
+    
+ }
+
+ .card-content h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }

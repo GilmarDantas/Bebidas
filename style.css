@@ -20,7 +20,7 @@
 
 .title {
     font-family: var(--fonte-principal);
-    font-size: 3em;
+    font-size: 2em;
     font-variant: small-caps;
     color: white;
     background-color: #B62323;
@@ -29,15 +29,18 @@
 
 }
 
+.title a:active {
+    color: #D9CE3F;
+}
+
 .button__container {
     margin: 14px;
 }
 
 .button__container a {
+    background-color: #D9CE3F;
     box-shadow: 0px 1px 0px 0px #5b6178;
-    background-color: #5b5b5b;
     border-radius: 6px;
-    border: 1px solid #5b6178;
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
@@ -49,8 +52,7 @@
 }
 
 .button__container a:hover {
-    background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
-    background-color: #019ad2;
+    background-color: #D9CE3F;
 }
 
 .button__container a:active {
@@ -102,7 +104,8 @@ ul a {
 }
 
 ul a:hover {
-    border-bottom: 3px solid white;
+    color: #D9CE3F;
+    border-bottom: 1px solid #D9CE3F;
 }
 
 ul a:active {
@@ -141,8 +144,9 @@ ul a:active {
     max-height: 180px;
 }
 
+
 .cards button:hover {
-    background-color: #B62323;
+    background-color: #D9CE3F;
 }
 
 .card-content {
@@ -153,7 +157,7 @@ ul a:active {
 .card-content button {
     border: none;
     padding: 8px;
-    background-color: #5b5b5b;
+    background-color: #B62323;
     color: white;
     text-align: center;
     cursor: pointer;
@@ -166,4 +170,16 @@ ul a:active {
 
 .card-content h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* PAGINA LOGIN */
+
+.container2 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-cadastro {
+    width: 100%;
+    font-family: "Arial", Times, serif;
 }

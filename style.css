@@ -174,12 +174,18 @@ ul a:active {
 
 /* PAGINA LOGIN */
 
-.container2 {
+.container2-3 {
+    display: flex;
+}
+
+.container2,
+.container3 {
     width: 50%;
     margin: 0 auto;
 }
 
-.container2 h1 {
+.container2 h1,
+.container3 h1 {
     margin: 14px 0;
 }
 

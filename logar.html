@@ -1,56 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Bebidas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prime Bebidas</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body link="white" vlink="white">
-  <header>
-    <div class="container">
-      <div class="title">
-        <h1 class="title">
-          <a href="index.html">Prime Bebidas</a>
-        </h1>
+  <body link="white" vlink="white">
+    <header>
+      <div class="container">
+        <div class="title">
+          <h1 class="title">
+            <a href="index.html">Prime Bebidas</a>
+          </h1>
+        </div>
+        <div class="button__container">
+          <a href="logar.html" rel="noopener noreffer" target="_self">Logar</a>
+        </div>
       </div>
-      <div class="button__container">
-        <a href="logar.html" rel="noopener noreffer" target="_self">Logar</a>
+
+      <nav class="navbar">
+        <ul>
+          <a href="cervejas_pag.html">Cervejas</a>
+          <a href="vinhos_pag.html">Vinhos</a>
+          <a href="destilados_pag.html">Destilados</a>
+          <a href="energetico_pag.html">Energéticos</a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container2">
+        <h1>Pessoa Jurídica</h1>
+        <form action="#" class="form-cadastro" method="post" tabindex="1">
+          <label for=""
+            ><span>Nome completo:</span
+            ><input
+              type="text"
+              class="form-cadastro-input"
+              name="nome"
+              placeholder="Nome completo"
+              required
+          /></label>
+          <label for=""
+            ><span>CNPJ:</span
+            ><input
+              type="email"
+              class="form-cadastro-input"
+              name="email"
+              placeholder="CNPJ"
+              required
+          /></label>
+          <label for=""
+            ><span>Telefone:</span
+            ><input
+              type="tel"
+              class="form-cadastro-input"
+              name="tel"
+              placeholder="Telefone"
+          /></label>
+          <label for=""
+            ><span>Nome do estabelecimento:</span
+            ><input
+              type="tel"
+              class="form-cadastro-input"
+              name="tel"
+              placeholder="Nome do estabelecimento"
+          /></label>
+          <label for=""
+            ><span>Endereço:</span
+            ><input
+              type="tel"
+              class="form-cadastro-input"
+              name="tel"
+              placeholder="Rua Afonso Pena, 100, Centro."
+          /></label>
+          <label for=""
+            ><span>Horário de atendimento:</span
+            ><input
+              type="tel"
+              class="form-cadastro-input"
+              name="tel"
+              placeholder="Horário de atendimento"
+          /></label>
+          <button type="submit" class="form-cadastro-button">
+            Finalizar Cadastro
+          </button>
+        </form>
       </div>
-    </div>
-
-    <nav class="navbar">
-      <ul>
-        <a href="cervejas_pag.html">Cervejas</a>
-        <a href="vinhos_pag.html">Vinhos</a>
-        <a href="destilados_pag.html">Destilados</a>
-        <a href="energetico_pag.html">Energéticos</a>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <div class="container2">
-      <form action="#" class="form-cadastro" method="post" tabindex="1">
-        <label for=""><span>Nome completo:</span><input type="text" class="form-cadastro-input" name="nome"
-            placeholder="Nome completo" required /></label>
-        <label for=""><span>CNPJ:</span><input type="email" class="form-cadastro-input" name="email" placeholder="CNPJ"
-            required /></label>
-        <label for=""><span>Telefone:</span><input type="tel" class="form-cadastro-input" name="tel"
-            placeholder="Telefone" /></label>
-        <label for=""><span>Nome do estabelecimento:</span><input type="tel" class="form-cadastro-input" name="tel"
-            placeholder="Nome do estabelecimento" /></label>
-        <label for=""><span>Endereço:</span><input type="tel" class="form-cadastro-input" name="tel"
-            placeholder="Rua Afonso Pena, 100, Centro." /></label>
-        <label for=""><span>Horário de atendimento:</span><input type="tel" class="form-cadastro-input" name="tel"
-            placeholder="Horário de atendimento" /></label>
-        <button type="submit" class="form-cadastro-button">Finalizar Cadastro</button>
-      </form>
-    </div>
-  </main>
-
-</body>
-
+    </main>
+  </body>
 </html>

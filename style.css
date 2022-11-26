@@ -181,7 +181,7 @@ ul a:active {
 .container2,
 .container3 {
     width: 50%;
-    margin: 0 auto;
+    margin: 0 10px;
 }
 
 .container2 h1,

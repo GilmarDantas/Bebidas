@@ -105,7 +105,8 @@ ul a {
 }
 
 ul a:hover {
-    border-bottom: 3px solid white;
+    color: #D9CE3F;
+    border-bottom: 1px solid #D9CE3F;
 }
 
 ul a:active {
@@ -144,8 +145,9 @@ ul a:active {
     max-height: 180px;
 }
 
+
 .cards button:hover {
-    background-color: #B62323;
+    background-color: #D9CE3F;
 }
 
 .card-content {
@@ -156,7 +158,7 @@ ul a:active {
 .card-content button {
     border: none;
     padding: 8px;
-    background-color: #5b5b5b;
+    background-color: #B62323;
     color: white;
     text-align: center;
     cursor: pointer;
